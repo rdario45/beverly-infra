@@ -1,0 +1,11 @@
+keys/
+.DS_Store
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+website/*
+terraform.tfstate
+terraform/.terraform.tfstate.*
+docker/*
+idea/*

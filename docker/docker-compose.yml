@@ -1,0 +1,14 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  auth:
+    image:  711328658350.dkr.ecr.us-west-1.amazonaws.com/auth:latest
+    ports:
+      - "9000:9000"
+  citas:
+    image:  711328658350.dkr.ecr.us-west-1.amazonaws.com/citas:latest
+    ports:
+      - "9001:9001"
+  agendas:
+    image:  711328658350.dkr.ecr.us-west-1.amazonaws.com/agendas:latest
+    ports:
+      - "9002:9002"
